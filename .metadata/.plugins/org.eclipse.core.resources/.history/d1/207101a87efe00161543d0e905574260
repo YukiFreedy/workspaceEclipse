@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_OChk8P58EeaDxIeQAAE2rA" selectedViews="_PAN8QP58EeaDxIeQAAE2rA" version="11.1.0.201608251200">
+    <semanticResources>amazon.ecore</semanticResources>
+    <semanticResources>amazon.genmodel</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_PAN8QP58EeaDxIeQAAE2rA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_PK134P58EeaDxIeQAAE2rA" name="amazon" representation="_PK2e8P58EeaDxIeQAAE2rA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="amazon.ecore#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_PK2e8P58EeaDxIeQAAE2rA" name="amazon">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_PK2e8f58EeaDxIeQAAE2rA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_PK2e8v58EeaDxIeQAAE2rA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_PMgEwP58EeaDxIeQAAE2rA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_PMgEwf58EeaDxIeQAAE2rA" type="Sirius" element="_PK2e8P58EeaDxIeQAAE2rA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_Tug3YP58EeaDxIeQAAE2rA" type="2003" element="_TtmRYP58EeaDxIeQAAE2rA">
+          <children xmi:type="notation:Node" xmi:id="_TvcEcP58EeaDxIeQAAE2rA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_TvhkAP58EeaDxIeQAAE2rA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_TvhkAf58EeaDxIeQAAE2rA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_TvhkAv58EeaDxIeQAAE2rA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Tug3Yf58EeaDxIeQAAE2rA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tug3Yv58EeaDxIeQAAE2rA" x="287" y="162" width="120" height="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_PMgEwv58EeaDxIeQAAE2rA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_TtmRYP58EeaDxIeQAAE2rA" name="Aplicacion" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="amazon.ecore#//Aplicacion"/>
+      <semanticElements xmi:type="ecore:EClass" href="amazon.ecore#//Aplicacion"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Ttx3kP58EeaDxIeQAAE2rA" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_PK2e8_58EeaDxIeQAAE2rA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <target xmi:type="ecore:EPackage" href="amazon.ecore#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

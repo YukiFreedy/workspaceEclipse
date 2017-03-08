@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_XLCW4AOFEeeW_7iHDq8V3g" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_XhbdoAOFEeeW_7iHDq8V3g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dazr0AOFEeeW_7iHDq8V3g" name="Taller">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jI3QoAPOEeeWY91WuHdvrQ" name="Nombre" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <qualifier xmi:type="uml:Property" xmi:id="_lFWygAPOEeeWY91WuHdvrQ" name="Nombre"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xup1UAPOEeeWY91WuHdvrQ" name="Direccion" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_08UEIAPOEeeWY91WuHdvrQ" name="ID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ewGq0AOFEeeW_7iHDq8V3g" name="Persona">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__nU1UAPOEeeWY91WuHdvrQ" name="Nombre" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DYnVoAPPEeeWY91WuHdvrQ" name="DNI">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_f6tcwAOFEeeW_7iHDq8V3g" name="Cliente">
+    <generalization xmi:type="uml:Generalization" xmi:id="_s4BAsAOFEeeW_7iHDq8V3g" general="_ewGq0AOFEeeW_7iHDq8V3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IQVSgAPPEeeWY91WuHdvrQ" name="nuevoCliente" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gu-LQAOFEeeW_7iHDq8V3g" name="Trabajador">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tr7w8AOFEeeW_7iHDq8V3g" general="_ewGq0AOFEeeW_7iHDq8V3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PS4vQAPPEeeWY91WuHdvrQ" name="NSS">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kNkZEAOFEeeW_7iHDq8V3g" name="Recambio">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jmXPgAPPEeeWY91WuHdvrQ" name="Referencia">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qsF8EAPPEeeWY91WuHdvrQ" name="Nombre" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tRqQIAPPEeeWY91WuHdvrQ" name="Precio" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mO-QIAOFEeeW_7iHDq8V3g" name="Presupuesto">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WretcAPPEeeWY91WuHdvrQ" name="Comentarios" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y3J60APPEeeWY91WuHdvrQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y3OMQAPPEeeWY91WuHdvrQ" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qlEtsAOFEeeW_7iHDq8V3g" name="Coche">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BqKZ8QOGEeeW_7iHDq8V3g" name="trabajador" type="_gu-LQAOFEeeW_7iHDq8V3g" association="_BqH9sAOGEeeW_7iHDq8V3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Z0oPsAPPEeeWY91WuHdvrQ" name="Nombre" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cDtWYAPPEeeWY91WuHdvrQ" name="Matricula">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_emli0APPEeeWY91WuHdvrQ" name="Año_Matriculacion" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yGWGwAOFEeeW_7iHDq8V3g" memberEnd="_yGbmUAOFEeeW_7iHDq8V3g _yGcNYAOFEeeW_7iHDq8V3g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yGZxIAOFEeeW_7iHDq8V3g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yGaYMAOFEeeW_7iHDq8V3g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yGcNYAOFEeeW_7iHDq8V3g" name="persona" type="_ewGq0AOFEeeW_7iHDq8V3g" aggregation="composite" association="_yGWGwAOFEeeW_7iHDq8V3g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GJ-NIAOGEeeW_7iHDq8V3g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GKApYAOGEeeW_7iHDq8V3g" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yGbmUAOFEeeW_7iHDq8V3g" name="taller" type="_dazr0AOFEeeW_7iHDq8V3g" association="_yGWGwAOFEeeW_7iHDq8V3g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zKIfAAOFEeeW_7iHDq8V3g" memberEnd="_zKJtIgOFEeeW_7iHDq8V3g _zKKUMAOFEeeW_7iHDq8V3g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zKJtIAOFEeeW_7iHDq8V3g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zKJtIQOFEeeW_7iHDq8V3g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zKKUMAOFEeeW_7iHDq8V3g" name="recambio" type="_kNkZEAOFEeeW_7iHDq8V3g" aggregation="composite" association="_zKIfAAOFEeeW_7iHDq8V3g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FDMyUAOGEeeW_7iHDq8V3g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FDQcsAOGEeeW_7iHDq8V3g" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zKJtIgOFEeeW_7iHDq8V3g" name="taller" type="_dazr0AOFEeeW_7iHDq8V3g" association="_zKIfAAOFEeeW_7iHDq8V3g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EdSB0AOGEeeW_7iHDq8V3g" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EddoAAOGEeeW_7iHDq8V3g" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_BqH9sAOGEeeW_7iHDq8V3g" name="Reparacion" memberEnd="_BqKZ8QOGEeeW_7iHDq8V3g _BqOEUAOGEeeW_7iHDq8V3g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BqJy4AOGEeeW_7iHDq8V3g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BqKZ8AOGEeeW_7iHDq8V3g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SjaE0APPEeeWY91WuHdvrQ" name="Descripción" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BqOEUAOGEeeW_7iHDq8V3g" name="coche" type="_qlEtsAOFEeeW_7iHDq8V3g" association="_BqH9sAOGEeeW_7iHDq8V3g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OlTasAOGEeeW_7iHDq8V3g" memberEnd="_OlUo0QOGEeeW_7iHDq8V3g _OlVP4AOGEeeW_7iHDq8V3g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OlUBwAOGEeeW_7iHDq8V3g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OlUo0AOGEeeW_7iHDq8V3g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OlVP4AOGEeeW_7iHDq8V3g" name="recambio" type="_kNkZEAOFEeeW_7iHDq8V3g" association="_OlTasAOGEeeW_7iHDq8V3g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OlUo0QOGEeeW_7iHDq8V3g" name="presupuesto" type="_mO-QIAOFEeeW_7iHDq8V3g" association="_OlTasAOGEeeW_7iHDq8V3g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SeFDEAOGEeeW_7iHDq8V3g" memberEnd="_SeFqIgOGEeeW_7iHDq8V3g _SeGRMAOGEeeW_7iHDq8V3g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SeFqIAOGEeeW_7iHDq8V3g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SeFqIQOGEeeW_7iHDq8V3g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SeGRMAOGEeeW_7iHDq8V3g" name="presupuesto" type="_mO-QIAOFEeeW_7iHDq8V3g" association="_SeFDEAOGEeeW_7iHDq8V3g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T7KsIAOGEeeW_7iHDq8V3g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T7OWgAOGEeeW_7iHDq8V3g" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SeFqIgOGEeeW_7iHDq8V3g" name="reparacion" type="_BqH9sAOGEeeW_7iHDq8V3g" association="_SeFDEAOGEeeW_7iHDq8V3g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8mRfIAPOEeeWY91WuHdvrQ" memberEnd="_8mapEAPOEeeWY91WuHdvrQ _8mbQIAPOEeeWY91WuHdvrQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8mVwkAPOEeeWY91WuHdvrQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8mWXoAPOEeeWY91WuHdvrQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8mbQIAPOEeeWY91WuHdvrQ" name="coche" type="_qlEtsAOFEeeW_7iHDq8V3g" aggregation="composite" association="_8mRfIAPOEeeWY91WuHdvrQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8mapEAPOEeeWY91WuHdvrQ" name="persona" type="_ewGq0AOFEeeW_7iHDq8V3g" association="_8mRfIAPOEeeWY91WuHdvrQ"/>
+  </packagedElement>
+</uml:Model>
